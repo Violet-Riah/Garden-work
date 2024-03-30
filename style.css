@@ -62,7 +62,7 @@
 }
 .nav{
     background-color: rgb(94, 148, 94);
-    font-size: xx-large;
+    font-size: x-large;
     color: rgb(249, 250, 249);
     justify-content: center;
     text-align: center;
@@ -80,7 +80,7 @@
 .words{
     justify-content: center;
 }
-.div3{
+.footer{
     justify-content: center;
     background-color: rgb(46, 112, 46);
     height: 70%;
@@ -88,14 +88,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}.button{
-    border-radius:2px;
-    background-color: rgb(58, 128, 74);
-    color:white;
-    width:170px;
-    padding:14px;
-    font-size: x-large;
-    justify-content: center;
+    display: flex;
+    gap: 7%;
+
 }
 .photo{
     margin-right: 150px;
@@ -134,8 +129,23 @@
 }
 .textbox{
     display: flex;
-    gap: 5%;
+    gap: 1%;
     border: solid;
     background-color: rgb(58, 92, 58);
 
+}
+.footer{
+
+}
+.button{
+    border-radius:2px;
+    background-color: rgb(55, 95, 65);
+    color:white;
+    width:100px;
+    padding:10px;
+    font-size: x-large;
+    justify-content: center;
+}
+.text9{
+    font-size: large;
 }
