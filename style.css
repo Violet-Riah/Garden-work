@@ -82,7 +82,7 @@
 }
 .div3{
     justify-content: center;
-    background-color: rgb(72, 100, 72);
+    background-color: rgb(46, 112, 46);
     height: 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@
     position: relative;
 }.button{
     border-radius:2px;
-    background-color: rgb(40, 65, 46);
+    background-color: rgb(58, 128, 74);
     color:white;
     width:170px;
     padding:14px;
@@ -110,4 +110,32 @@
     border: solid;
     color: white;
     background-color: darkgreen;
+}
+.topnav{
+    background-color: rgb(68, 129, 56);
+    border: solid;
+    border-radius: 30px;
+    font-size: xx-large;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    display: flex;
+    gap: 7%;
+    color: white;
+    font-size: xx-large;
+}
+#act{
+    background-color: rgb(41, 133, 41);
+    color: white;
+    font-size: xx-large;
+    width: 10%;
+    height: 10%;
+
+}
+.textbox{
+    display: flex;
+    gap: 5%;
+    border: solid;
+    background-color: rgb(58, 92, 58);
+
 }
